@@ -11,6 +11,10 @@
 		84286AE92683174B00C72E57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84286AE82683174B00C72E57 /* ContentView.swift */; };
 		84286AEB2683174D00C72E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84286AEA2683174D00C72E57 /* Assets.xcassets */; };
 		84286AEE2683174D00C72E57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84286AED2683174D00C72E57 /* Preview Assets.xcassets */; };
+		84286AF6268317CC00C72E57 /* OkashiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84286AF5268317CC00C72E57 /* OkashiData.swift */; };
+		84286AF8268317F600C72E57 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84286AF7268317F600C72E57 /* SafariView.swift */; };
+		84286AFA2683183700C72E57 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84286AF92683183700C72E57 /* Info.plist */; };
+		84286AFC2683184800C72E57 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 84286AFB2683184800C72E57 /* Preview Content */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		84286AEA2683174D00C72E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84286AED2683174D00C72E57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84286AEF2683174D00C72E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84286AF5268317CC00C72E57 /* OkashiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiData.swift; sourceTree = "<group>"; };
+		84286AF7268317F600C72E57 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		84286AF92683183700C72E57 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../workspace/XcodeSwift20210223/2_4/MyOkashi/src/MyOkashi/Info.plist; sourceTree = "<group>"; };
+		84286AFB2683184800C72E57 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Preview Content"; path = "../../../workspace/XcodeSwift20210223/2_4/MyOkashi/src/MyOkashi/Preview Content"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				84286AE62683174B00C72E57 /* MyOkashiApp.swift */,
+				84286AF5268317CC00C72E57 /* OkashiData.swift */,
+				84286AF7268317F600C72E57 /* SafariView.swift */,
 				84286AE82683174B00C72E57 /* ContentView.swift */,
+				84286AFB2683184800C72E57 /* Preview Content */,
+				84286AF92683183700C72E57 /* Info.plist */,
 				84286AEA2683174D00C72E57 /* Assets.xcassets */,
 				84286AEF2683174D00C72E57 /* Info.plist */,
 				84286AEC2683174D00C72E57 /* Preview Content */,
@@ -126,8 +138,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84286AFC2683184800C72E57 /* Preview Content in Resources */,
 				84286AEE2683174D00C72E57 /* Preview Assets.xcassets in Resources */,
 				84286AEB2683174D00C72E57 /* Assets.xcassets in Resources */,
+				84286AFA2683183700C72E57 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84286AF8268317F600C72E57 /* SafariView.swift in Sources */,
 				84286AE92683174B00C72E57 /* ContentView.swift in Sources */,
+				84286AF6268317CC00C72E57 /* OkashiData.swift in Sources */,
 				84286AE72683174B00C72E57 /* MyOkashiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
